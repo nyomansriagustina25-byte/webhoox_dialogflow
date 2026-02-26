@@ -6,15 +6,33 @@ app.use(bodyParser.json());
 
 const jadwal = {
   senin: {
-    "07.00": "Matematika",
-    "08.00": "Bahasa Indonesia",
+    "07.00": "bahasa bali",
+    "08.00": "ipas",
+    "09.30": "bahasa indonesia",
   },
   selasa: {
-    "07.00": "IPA",
-    "08.00": "IPS",
+    "07.00": "pjok",
+    "08.00": "dda",
+    "14.28": "matematika",
   },
+  rabu:  {
+    "07.00": "pendidikan pancasila",
+    "08.50": "matematika",
+    "10.40": "senibudaya",
+    "12.00": "sejarah",
+    "13.40": "bk",
+    "14.20": "bahasa indonesia",
+  },
+  kamis:  {
+    "07.00": "kka",
+    "08.50": "dda",
+    "13.40": "agama",
+  },
+  jumat:  {
+    "07.30": "informatika",
+    "11.20": "bahasa inggris",
+  
 };
-
 app.post("/webhook", (req, res) => {
   const hari = req.body.queryResult.parameters.hari;
   const jam = req.body.queryResult.parameters.jam;
