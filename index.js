@@ -16,7 +16,7 @@ const jadwal = {
     "14.28": "matematika",
   },
   rabu:  {
-    "07.00": "pendidikan pancasila",
+    "07.30": "pendidikan pancasila",
     "08.50": "matematika",
     "10.40": "senibudaya",
     "12.00": "sejarah",
@@ -24,7 +24,7 @@ const jadwal = {
     "14.20": "bahasa indonesia",
   },
   kamis:  {
-    "07.00": "kka",
+    "07.30": "kka",
     "08.50": "dda",
     "13.40": "agama",
   },
